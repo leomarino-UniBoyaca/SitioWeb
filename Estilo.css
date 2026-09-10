@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("RecursosGraficos/FondoTipoCartaAntigua.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+header {
+  text-align: center;
+  padding-top: clamp(40px, 10vh, 120px);
+  padding-bottom: clamp(20px, 3vh, 25px);
+  padding-left: clamp(60px, 10vw, 220px);
+  padding-right: clamp(60px, 10vw, 220px);
+}
+
+header h1 {
+  margin: 0;
+  line-height: 1.5;
+}
+
+section {
+  padding-top: clamp(1px, 1vh, 1px);
+  padding-bottom: clamp(80px, 12vh, 200px);
+  padding-left: clamp(70px, 12vw, 330px);
+  padding-right: clamp(70px, 12vw, 330px);
+}
+
+p {
+  text-indent: 1.27cm;
+  line-height: 2;
+}
