@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+ background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+            url('../imagenes/imagen 1.png') center/cover no-repeat fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 8px 16px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+
+.card {
+  background: rgba(20, 20, 20, 0.85);
+  padding: 30px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 400px;
+  margin: 40px auto;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  line-height: 1.5;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #4da6ff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
