@@ -2,19 +2,40 @@
   box-sizing: border-box;
 }
 
-html {
+/* Fondos */
+
+.fondo-contexto {
   background-image: url("RecursosGraficos/FondoTipoCartaAntigua.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
+.fondo-paz {
+  background-image: url("RecursosGraficos/MarcoReal.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.pagina-armisticio {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(41, 41, 41);
+}
+
+.imagen-armisticio {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+}
+
+/* Estructura base compartida */
+
 header {
   text-align: center;
-  padding-top: clamp(40px, 10vh, 120px);
-  padding-bottom: clamp(20px, 3vh, 25px);
-  padding-left: clamp(60px, 10vw, 220px);
-  padding-right: clamp(60px, 10vw, 220px);
 }
 
 header h1 {
@@ -22,14 +43,39 @@ header h1 {
   line-height: 1.5;
 }
 
-section {
+p {
+  text-indent: 1.27cm;
+  line-height: 2;
+}
+
+/* Página de Contexto */
+
+.fondo-contexto header {
+  padding-top: clamp(40px, 10vh, 120px);
+  padding-bottom: clamp(20px, 3vh, 25px);
+  padding-left: clamp(60px, 10vw, 220px);
+  padding-right: clamp(60px, 10vw, 220px);
+}
+
+.fondo-contexto section {
   padding-top: clamp(1px, 1vh, 1px);
   padding-bottom: clamp(80px, 12vh, 200px);
   padding-left: clamp(70px, 12vw, 330px);
   padding-right: clamp(70px, 12vw, 330px);
 }
 
-p {
-  text-indent: 1.27cm;
-  line-height: 2;
+/* Página de Declaración de Paz */
+
+.fondo-paz header {
+  padding-top: clamp(260px, 34vh, 380px);
+  padding-bottom: clamp(20px, 3vh, 40px);
+  padding-left: clamp(40px, 8vw, 160px);
+  padding-right: clamp(40px, 8vw, 160px);
+}
+
+.fondo-paz section {
+  padding-top: clamp(1px, 1vh, 1px);
+  padding-bottom: clamp(220px, 26vh, 380px);
+  padding-left: clamp(50px, 9vw, 200px);
+  padding-right: clamp(50px, 9vw, 200px);
 }
